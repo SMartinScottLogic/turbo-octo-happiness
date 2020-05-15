@@ -1,0 +1,15 @@
+[package]
+name = "turbo-octo-happiness"
+version = "0.1.0"
+authors = ["Simon Martin <smartin@scottlogic.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fuse_mt = "0.5.0"           # A higher-level FUSE filesystem library with multi-threading and inode->path translation.
+libc = "0.2.54"             # Raw FFI bindings to platform libraries like libc.
+log = "0.4.8"               # A lightweight logging facade for Rust
+chrono = "0.4.9"            # Date and time library for Rust
+time = "0.1.42"             # Utilities for working with time-related functions in Rust.
+walkdir = "2.3.1"           # Recursively walk a directory.
